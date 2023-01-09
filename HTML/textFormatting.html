@@ -1,3 +1,58 @@
+<!--  
+The <i> tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+The <i> tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.  
+
+The <b> tag specifies bold text without any extra importance.
+
+The <strong> tag is used to define text with strong importance. The content inside is typically displayed in bold.
+
+The <em> tag is used to define emphasized text. The content inside is typically displayed in italic.
+
+The <sub> tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.
+
+The <sup> tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1].
+
+he <small> tag defines smaller text (like copyright and other side-comments).
+
+The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.
+
+The <address> tag defines the contact information for the author/owner of a document or an article.
+The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.
+
+The <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+
+The <code> tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.
+
+The <data> tag is used to add a machine-readable translation of a given content.
+This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.
+
+The <mark> tag defines text that should be marked or highlighted.
+
+The <ins> tag defines a text that has been inserted into a document. Browsers will usually underline inserted text.
+
+The <blockquote> tag specifies a section that is quoted from another source.
+
+The <q> tag defines a short quotation.
+Browsers normally insert quotation marks around the quotation.
+
+The <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
+Note: A person's name is not the title of a work.
+The text in the <cite> element usually renders in italic.
+
+The <var> tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.
+
+The <time> tag defines a specific time (or datetime).
+The datetime attribute of this element is used translate the time into a machine-readable format so that browsers can offer to add date reminders through the user's calendar, and search engines can produce smarter search results.
+
+The <kbd> tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.
+
+The <samp> tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.
+
+BDO stands for Bi-Directional Override.
+The <bdo> tag is used to override the current text direction.
+dir="ltr" or bdo="rtl"  ->	Required. Specifies the text direction of the text inside the <bdo> element
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +71,7 @@
         <p>This text is <small> Small </small></p>
         <p>This text is <del> Delete </del></p>
         <p> <address> Address </address></p>
-        <p>This text is <abbr> Inserted Abbreviation </abbr></p>
+        <p>This text is abbreviation <abbr title="World Health Organization">WHO</abbr></p>
         <p>This text is Code Snippet <code> int a;int b; </code></p>
         <p>This text is <data>data text</data></p>
         <p>This text is <mark> Marked Text </mark></p>
@@ -26,7 +81,8 @@
         <p>This text is <cite> Cited </cite></p>
         <p>This is var text <var>int a;</var></p>
         <p>This is time text <time>10:00</time> to <time>12:00</time></p>
-        <p>This text is abbreviation <abbr title="World Health Organization">WHO</abbr></p>
+        <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+        <p><samp>File not found.<br>Press F1 to continue</samp></p>
         <p>This text is Bi-Directional Override <bdo dir="rtl">This text will go right-to-left.</bdo></p>
     </body>
 </html>
