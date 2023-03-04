@@ -1,0 +1,122 @@
+<!-- HTML Forms : The HTML <form> element is used to create an HTML form for user input.
+        The <form> element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.
+        The HTML <form> element can contain one or more of the following form elements:
+            <input>
+            <label>
+            <select>
+            <textarea>
+            <button>
+            <fieldset>
+            <legend>
+            <datalist>
+            <output>
+            <option>
+            <optgroup>
+
+        The <input> element can be displayed in several ways, depending on the type attribute.
+
+        The <label> element defines a label for several form elements.
+        The <label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element.
+        The <label> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <label> element, it toggles the radio button/checkbox.
+        The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+
+        The <option> elements defines an option that can be selected.
+        By default, the first item in the drop-down list is selected.
+            Use the size attribute to specify the number of visible values.
+            Use the multiple attribute to allow the user to select more than one value:
+
+        The <textarea> element defines a multi-line input control (text area).
+                The rows attribute specifies the visible number of lines in a text area.
+                The cols attribute specifies the visible width of a text area.
+        
+        The <button> element defines a clickable button.
+
+        The <fieldset> element is used to group related elements in a form.
+
+        The <legend> element defines a caption for the <fieldset> element.
+
+        The <datalist> element specifies a list of pre-defined options for an <input> element.
+        Users will see a drop-down list of the pre-defined options as they input data.
+        The list attribute of the <input> element, must refer to the id attribute of the <datalist> element.
+
+        The <output> element represents the result of a calculation (like one performed by a script).
+        
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Registration Forms</h1>
+    <h2>All fields are mandtory</h2>
+    <form action="thankyou.html" method="post" target="_blank">
+        <fieldset>
+            <legend> <b>Student Details:</b> </legend>
+            <label for="fname">Enter First Name: </label><br>
+            <input type="text" id="fname" name="fname" placeholder="Bharat" required maxlength="10"><br><br>
+
+            <label for="lname">Enter Last Name: </label><br>
+            <input type="text" id="lname" name="lname" placeholder="Kumar" required maxlength="10"><br><br>   
+
+            <label for="email">Enter Email: </label><br>
+            <input type="email" id="email" name="email" placeholder="bk9955204451@gmail.com" minlength="10" maxlength="30" size="30" required><br><br>    
+
+            <label for="Phone">Enter Phone Number: </label><br>
+            <input type="number" id="Phone" name="Phone" placeholder="6283107346" size="13" minlength="10" maxlength="13" required><br><br>
+            
+            <label for="pwd">Enter Password: </label><br>
+            <input type="password" id="pwd" name="pwd" required><br><br>
+
+            <label for="img">Upload Your Image: </label><br>
+            <input type="image" src="img.jpg" id="img" name="img" height="48" width="48" readonly required><br><br>
+
+            <label for="cvr">Upload Your CV and Resume: </label><br>
+            <input type="file" id="cvr" name="cvr" multiple required><br><br>
+
+            <label for="branch">Enter Your Branch Name: </label><br>
+            <input type="radio" id="cse" name="branch" checked>
+            <label for="cse">CSE</label>
+            <input type="radio" id="ece" name="branch">
+            <label for="ece">ECE</label>
+            <input type="radio" id="civil" name="branch">
+            <label for="civil">Civil</label><br><br>
+
+            <label for="pro">Enter Your Favourite Programming Language: </label><br>
+            <input type="checkbox" id="c" name="c" checked>
+            <label for="c">C</label><br>
+            <input type="checkbox" id="cpp" name="cpp">
+            <label for="cpp">C++</label><br>
+            <input type="checkbox" id="java" name="java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="py" name="py" required>
+            <label for="py">Python</label><br>
+            <br><br>
+
+            <label for="marriage">Select Your Favourite Actress: </label>
+            <select class="" name="expected" size="1">
+                <option value="kf">Katrina Kaif</option>
+                <option value="dp">Deepika Padukone</option>
+                <option value="pc" selected>Priyanka Chopra</option>
+                <option value="sl">Sunny Leone</option>
+                <option value="ms">Malika Sherawat</option>
+                <option value="jk">Janvi Kapoor</option>
+            </select><br><br>
+
+            <p>Please Give Your Suggestion:</p>
+            <textarea name="prefences" rows="5" cols="50"></textarea><br><br>
+
+            <input type="button" value="Submit" name="Submit">
+            <input type="reset" name="Reset">
+        </fieldset>        
+    </form>
+</body>
+</html>
