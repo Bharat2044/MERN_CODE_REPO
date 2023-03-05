@@ -1,0 +1,8 @@
+#tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "Tip:";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}

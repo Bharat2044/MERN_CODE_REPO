@@ -1,0 +1,10 @@
+ul li::marker {
+    color: red;
+    content: ". ";
+    font-size: 50px;
+}
+li::marker {
+    color: cornflowerblue;
+    content: '<> ';
+    font-size: 1.1em;
+}

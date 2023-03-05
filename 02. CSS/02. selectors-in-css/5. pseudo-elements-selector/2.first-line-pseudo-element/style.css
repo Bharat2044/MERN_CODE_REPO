@@ -1,0 +1,12 @@
+ul{
+    list-style-type: none;
+}
+li::first-line {
+    color: lightseagreen;
+    text-decoration: underline;
+    line-height: 1;
+}
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}

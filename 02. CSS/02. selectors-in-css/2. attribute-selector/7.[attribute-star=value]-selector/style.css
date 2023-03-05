@@ -1,0 +1,6 @@
+[class*="te"] {
+    background: yellow;
+}
+[href*="go"] {
+    background: red;
+}

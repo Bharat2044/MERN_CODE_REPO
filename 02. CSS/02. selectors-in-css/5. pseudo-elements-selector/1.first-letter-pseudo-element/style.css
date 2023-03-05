@@ -1,0 +1,10 @@
+li::first-letter { 
+    color:coral;     
+    font-size: 1.3em;     
+    font-weight: bold;    
+    line-height: 1;     
+} 
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}

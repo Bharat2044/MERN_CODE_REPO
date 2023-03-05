@@ -1,0 +1,12 @@
+p::selection {
+    color: red;
+    background: yellow;
+}
+ul{
+    list-style-type: none;
+}
+
+li::selection {
+    color:rgb(76, 203, 37);
+    background-color: rgb(208, 135, 39);
+}
