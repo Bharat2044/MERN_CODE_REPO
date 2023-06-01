@@ -1,0 +1,23 @@
+p{
+    color: red;
+}
+
+div.a{
+    letter-spacing: normal;
+}
+
+div.b{
+    letter-spacing: 0px;
+}
+
+div.c{
+    letter-spacing: 2px;
+}
+
+div.d{
+    letter-spacing: -2px;
+}
+
+div.e{
+    letter-spacing: 5px;
+}
