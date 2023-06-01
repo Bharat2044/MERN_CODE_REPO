@@ -1,0 +1,23 @@
+p{
+    color: red;
+}
+
+p.a{
+    white-space: normal;
+}
+
+p.b{
+    white-space: nowrap;
+}
+
+p.c{
+    white-space: pre;
+}
+
+p.d{
+    white-space: pre-line;
+}
+
+p.e{
+    white-space: pre-wrap;
+}
