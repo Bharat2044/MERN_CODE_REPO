@@ -1,0 +1,18 @@
+p{
+    color: red;
+}
+
+#auto {
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;  
+}
+  
+#pixel {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;  
+}
+  
+#percent {
+    text-decoration-line: underline;
+    text-decoration-thickness: 50%;    
+}
