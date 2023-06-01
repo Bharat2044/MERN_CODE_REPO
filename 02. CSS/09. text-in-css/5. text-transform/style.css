@@ -1,0 +1,22 @@
+div {
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+
+div.none {
+    text-transform: none;
+}
+div.uppercase {
+    text-transform: uppercase;
+}
+  
+div.lowercase {
+    text-transform: lowercase;
+}
+  
+div.capitalize {
+   text-transform: capitalize;
+}
