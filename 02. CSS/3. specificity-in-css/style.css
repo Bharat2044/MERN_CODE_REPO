@@ -1,0 +1,21 @@
+div#a {
+    background-color: green;
+}
+#a {
+    background-color: yellow;
+}
+div[id=a] {
+    background-color: blue;
+}
+
+h1{
+    color: purple;
+}
+
+h2{
+    background-color: cadetblue;
+}
+
+h3{
+    color: yellowgreen !important;
+}
