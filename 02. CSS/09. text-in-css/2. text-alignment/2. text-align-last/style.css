@@ -1,0 +1,16 @@
+#left{
+    text-align-last: left;
+    color: red;
+}
+#right{
+    text-align-last: right;
+    color: blue;
+}
+#center{
+    text-align-last: center;
+    color: darkgreen;
+}
+#justify{
+    text-align-last: justify;
+    color: orange;
+}
