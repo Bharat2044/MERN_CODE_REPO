@@ -1,0 +1,40 @@
+#baseline{
+    vertical-align: baseline;
+    background-color: aquamarine;
+}
+#top{
+    vertical-align: top;
+    background-color: aquamarine;
+}
+#text-top{
+    vertical-align: text-top;
+    background-color: aquamarine;
+}
+#middle{
+    vertical-align: middle;
+    background-color: aquamarine;
+}
+#bottom{
+    vertical-align: bottom;
+    background-color: aquamarine;
+}
+#text-bottom{
+    vertical-align: text-bottom;
+    background-color: aquamarine;
+}
+#sub{
+    vertical-align: sub;
+    background-color: aquamarine;
+}
+#super{
+    vertical-align: super;
+    background-color: aquamarine;
+}
+#ps{
+    vertical-align: 10px;
+    background-color: aquamarine;
+}
+#ns{
+    vertical-align: -10px;
+    background-color: aquamarine;
+}
