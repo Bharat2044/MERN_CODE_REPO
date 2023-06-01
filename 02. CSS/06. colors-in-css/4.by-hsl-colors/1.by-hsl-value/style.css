@@ -1,0 +1,8 @@
+h1{
+    color: hsl(271, 76%, 53%);
+    background-color: hsl(182, 25%, 50%);
+    border: 5px solid hsl(0, 100%, 50%);
+}
+p{
+    background-color: hsl(120, 61%, 34%);
+}
