@@ -1,0 +1,27 @@
+p{
+    color: red;
+}
+
+div.a{
+    word-spacing: normal;
+}
+
+div.b{
+    word-spacing: 0px;
+}
+
+div.c{
+    word-spacing: 20px;
+}
+
+div.d{
+    word-spacing: -20px;
+}
+
+div.e{
+    word-spacing: 50px;
+}
+
+div.f{
+    word-spacing: 1cm;
+}
