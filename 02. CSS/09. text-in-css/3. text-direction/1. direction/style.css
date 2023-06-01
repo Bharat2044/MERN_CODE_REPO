@@ -1,0 +1,8 @@
+#ltr{
+    direction: ltr;
+    color: orange;
+}
+#rtl{
+    direction: rtl;
+    color: red;
+}
