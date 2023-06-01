@@ -1,0 +1,31 @@
+div{
+    color: red;
+}
+
+div.a {
+    line-height: normal;
+}
+  
+div.b {
+    line-height: 1.6;
+}
+  
+div.c {
+    line-height: 80%;
+}
+  
+div.d {
+    line-height: 200%;
+}
+  
+div.e {
+    line-height: 1;
+}
+  
+div.f {
+    line-height: 10px;
+}
+  
+div.g {
+    line-height: 25px;
+}
