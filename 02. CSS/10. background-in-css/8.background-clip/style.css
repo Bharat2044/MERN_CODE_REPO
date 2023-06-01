@@ -1,0 +1,20 @@
+#example1 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: border-box;  
+}
+  
+#example2 {
+    border: 10px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: padding-box;
+}
+  
+#example3 {
+    border: 10px solid black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: content-box;
+}
