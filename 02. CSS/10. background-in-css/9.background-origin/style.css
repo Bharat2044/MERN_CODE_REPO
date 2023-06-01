@@ -1,0 +1,23 @@
+#example1 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(bg-img1.avif);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+  
+#example2 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(bg-img1.avif);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+  
+#example3 {
+    border: 10px dashed black;
+    padding: 25px;
+    background: url(bg-img1.avif);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
