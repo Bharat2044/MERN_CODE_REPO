@@ -1,0 +1,28 @@
+body{
+    background: url('bg-img1.avif');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: top center;
+}
+
+.x {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border: solid black 1px;
+    background: url('bg-img1.avif');
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    background-position-x: right;
+}
+
+.y {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: solid black 1px;
+    background: url('bg-img1.avif');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    background-position-y: center;
+}
