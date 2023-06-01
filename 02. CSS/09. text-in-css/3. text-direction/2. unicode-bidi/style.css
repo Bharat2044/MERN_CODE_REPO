@@ -1,0 +1,25 @@
+#ex0 {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+#ex1 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+#ex2 {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+#ex3 {
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+#ex4 {
+    direction: rtl;
+    unicode-bidi: isolate-override;
+}
+#ex5 {
+    direction: rtl;
+    unicode-bidi: plaintext;
+}
