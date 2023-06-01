@@ -1,0 +1,15 @@
+p{
+    color: red;
+}
+
+div.a {
+    text-indent: 50px;
+}
+  
+div.b {
+    text-indent: -5em;
+}
+  
+div.c {
+    text-indent: 30%;
+}
