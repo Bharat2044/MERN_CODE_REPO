@@ -1,0 +1,101 @@
+.div{
+    border: 2px solid purple;
+}
+/* em units */
+#em{
+    font-size: 25px;
+}
+#em>p{
+    font-size: 2em;
+}
+#em+p{
+    font-size: 2em;
+}
+
+/* ex units */
+#ex{
+    font-size: 25px;
+}
+#ex>p{
+    font-size: 2ex;
+}
+#ex+p{
+    font-size: 2ex;
+}
+
+/* ch units */
+#ch{
+    font-size: 25px;
+}
+#ch>p{
+    font-size: 2ch;
+}
+#ch+p{
+    font-size: 2ch;
+}
+
+/* rem units */
+#rem{
+    font-size: 25px;
+}
+#rem>p{
+    font-size: 2rem;
+}
+#rem+p{
+    font-size: 2rem;
+}
+
+/* vw units */
+#vw{
+    font-size: 25px;
+}
+#vw>p{
+    font-size: 2vw;
+}
+#vw+p{
+    font-size: 2vw;
+}
+
+/* vh units */
+#vh{
+    font-size: 25px;
+}
+#vh>p{
+    font-size: 2vh;
+}
+#vh+p{
+    font-size: 2vh;
+}
+
+/* vmin units */
+#vmin{
+    font-size: 25px;
+}
+#vmin>p{
+    font-size: 2vmin;
+}
+#vmin+p{
+    font-size: 2vmin;
+}
+
+/* vmax units */
+#vmax{
+    font-size: 25px;
+}
+#vmax>p{
+    font-size: 2vmax;
+}
+#vmax+p{
+    font-size: 2vmax;
+}
+
+/* % units */
+#percent{
+    font-size: 25px;
+}
+#percent>p{
+    font-size: 30%;
+}
+#percent+p{
+    font-size: 30%;
+}
