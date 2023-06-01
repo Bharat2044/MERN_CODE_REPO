@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>!important in CSS</title>
+        <style>
+            #myid {
+                background-color: blue;
+            }
+            
+            .myclass {
+                font-size: 40px;
+                background-color: gray;
+            }
+            
+            p {
+                background-color: red !important;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p id="myid" class="myclass" style=" background-color: yellow;">This is some text in a paragraph.</p>
+    </body>
+</html>
