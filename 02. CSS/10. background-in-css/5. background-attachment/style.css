@@ -1,0 +1,5 @@
+body{
+    background: url('bg-img1.avif');
+    background-size: contain;
+    background-attachment: fixed;
+}
