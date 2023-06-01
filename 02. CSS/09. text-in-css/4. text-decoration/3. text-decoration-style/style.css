@@ -1,0 +1,29 @@
+p{
+    color: red;
+    font-size: 25px;
+}
+
+#solid{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+#wavy{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+#dotted{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+#double{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+#dashed{
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
