@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Specifity in CSS</title>
+        <!-- Internal CSS linking -->
+        <style>
+            /* inline, id, class and element specifity*/
+            #demo {color: blue;}
+            .test {color: green;} 
+            p {color: red;} 
+
+            /* internal and external css with element, id, and attribute*/
+            p+div#a {
+                background-color: blueviolet;
+            }
+            #a {
+                background-color: yellow;
+            }
+            div[id=a] {
+                background-color: blue;
+            }
+
+            /* internal and external css with element */
+            body h1{
+                color: red;
+            }
+
+            /* internal and external css with element*/
+            h2{
+                background-color: antiquewhite;
+            }
+
+            /* internal and external css with element and !important */
+            h2+h3{
+                color: white;
+                background-color: black;
+            }            
+        </style>
+        <!-- External CSS linking -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>    
+        <h1>Specifity in CSS</h1>
+        <!-- Inline CSS linking -->
+        <p id="demo" class="test" style="color: aqua;">Hello World!</p>  
+        <div id="a">This is a div</div>
+        <h2>Bharat Kumar</h2>
+        <h3>Text for !important</h3>
+    </body>
+</html>
