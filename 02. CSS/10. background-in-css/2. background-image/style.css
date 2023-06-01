@@ -1,0 +1,10 @@
+body{
+    background-image: url('bg-img.webp');
+}
+div{
+    color: white;
+    background-image: url('bg-img2.jpg'), url('bg-img.webp');
+}
+h1{
+    background-image: url('bg-img1.jpg');
+}
