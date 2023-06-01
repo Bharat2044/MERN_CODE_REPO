@@ -1,0 +1,16 @@
+p{
+    color: red;
+    font-size: 25px;
+}
+
+#p1 {
+    text-decoration: underline overline dotted purple;
+}
+  
+#p2 {
+    text-decoration: underline wavy blue 2px;
+}
+
+#p3{
+    text-decoration: line-through solid green 2px;
+}
