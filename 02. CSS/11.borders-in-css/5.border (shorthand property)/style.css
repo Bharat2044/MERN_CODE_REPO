@@ -1,0 +1,13 @@
+p.one {
+  border: 5px solid rgb(21, 5, 245);
+}
+
+p.two {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+p.three {
+  border-bottom: 6px solid rgb(40, 253, 8);
+  background-color: lightgrey;
+}
