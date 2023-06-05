@@ -1,0 +1,21 @@
+div.one {
+    padding: 25px;
+    background-color: lightblue;
+}
+
+div.two {
+    padding: 50px 80px;
+    background-color: lightblue;
+}
+
+div.three {
+    border: 1px solid black;
+    padding: 25px 50px 75px;
+    background-color: lightblue;
+}
+
+div.four {
+    border: 1px solid black;
+    padding: 25px 50px 75px 100px;
+    background-color: lightblue;
+}
