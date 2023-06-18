@@ -2,14 +2,17 @@
     text-align: left;
     color: red;
 }
+
 #right{
     text-align: right;
     color: blue;
 }
+
 #center{
     text-align: center;
     color: darkgreen;
 }
+
 #justify{
     text-align: justify;
     color: orange;
