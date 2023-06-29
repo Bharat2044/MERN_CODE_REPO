@@ -1,0 +1,46 @@
+h2 {
+    display: inline;
+    background-color: rgb(244, 222, 97);
+}
+
+.myClass {
+    display: block;
+    background-color: #f17a7a;
+}
+
+div {
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+#inline {
+    border: 2px solid rgb(236, 8, 8);
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 20px;
+}
+
+#block {
+    background-color: lime;
+    display: block;
+    border: 2px solid rgb(237, 8, 8);
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.inline-block {
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 2px;
+    display: inline-block;
+
+}
+
+#four {
+    display: none;
+}
