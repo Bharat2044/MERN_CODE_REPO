@@ -1,0 +1,13 @@
+li {
+    display: inline-block;
+}
+
+div {
+    width: 400px;
+    display: inline-block;
+    background-color: #66e15d;
+}
+
+div:nth-of-type(2n) {
+    background-color: yellow;
+}
