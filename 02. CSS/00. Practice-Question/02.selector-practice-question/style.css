@@ -1,0 +1,12 @@
+/* div#myId p {
+    color: green;
+} */
+
+
+/* div[id] p {
+    color: red;
+} */
+
+div[id="myId"] p {
+    color: blue;
+}
