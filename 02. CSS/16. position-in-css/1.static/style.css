@@ -1,0 +1,6 @@
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+    top: 500px;
+    left: 400px;
+}
