@@ -1,0 +1,23 @@
+#img1 {
+    height: 250px;
+    float: right;
+}
+
+#img2 {
+    height: 250px;
+    float: right;
+    clear: right;
+}
+
+
+.box  {
+    border: 2px solid black;
+}
+
+.ele {
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    border: 2px solid red;
+    float: left;
+}
