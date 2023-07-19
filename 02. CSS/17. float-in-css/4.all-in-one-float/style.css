@@ -1,0 +1,17 @@
+div {
+    border: 1px solid rgb(244, 7, 7);
+    height: 200px;
+    width: 200px;
+    background-color: rgb(5, 250, 5);
+    font-size: 30px;
+    text-align: center;
+    color: rgb(46, 0, 250);
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
