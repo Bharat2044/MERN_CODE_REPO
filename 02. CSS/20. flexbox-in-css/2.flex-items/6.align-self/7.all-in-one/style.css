@@ -1,0 +1,45 @@
+.flex-container {
+    padding: 0;
+    margin: 0;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(137, 118, 118);;
+}
+
+.flex-item {
+    background: tomato;
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
+
+.center {
+    align-self: center;
+}
+
+.baseline {
+    align-self: baseline;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
+.auto {
+    align-self: auto;
+}
