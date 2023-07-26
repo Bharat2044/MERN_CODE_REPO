@@ -1,0 +1,27 @@
+:root {
+    --blue: #6495ed;
+    --white: #faf0e6;
+    --brown: #a52a2a;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+h2 {
+    border-bottom: 2px solid var(--brown);
+}
+
+.container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 15px;
+}
+
+button {
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--brown);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
