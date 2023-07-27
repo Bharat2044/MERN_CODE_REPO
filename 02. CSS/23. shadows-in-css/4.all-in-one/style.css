@@ -1,0 +1,57 @@
+:root {
+    --primary-color: brown;
+    --custom-border: 2px;
+}
+
+.container {
+    background-color: beige;
+    height: 650px;
+    border: var(--custom-border) solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 60px;
+    /* box-shadow: 2px 5px 5px blue; */
+    filter: drop-shadow(2px 5px 5px blue);
+}
+span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box {
+    background-color: aquamarine;
+    width: 300px;
+    height: 300px;
+    border: var(--custom-border) solid var(--primary-color);
+    margin: 10px;
+    padding: 10px;
+
+    /* box-shadow: 10px 10px var(--primary-color); */
+    /* box-shadow: -10px -10px var(--primary-color); */
+    /* box-shadow: 10px 15px 5px var(--primary-color); */
+    /* box-shadow: 10px 15px 5px 10px var(--primary-color); */
+    /* box-shadow: 10px 15px 5px -10px var(--primary-color); */
+
+    /* box-shadow: inset 10px 10px var(--primary-color);  */
+    /* box-shadow: inset -10px -10px var(--primary-color); */
+    /* box-shadow: inset 10px 15px 5px var(--primary-color); */
+    /* box-shadow: inset 10px 15px 5px 10px var(--primary-color); */
+    /* box-shadow: inset 10px 15px 5px -10px var(--primary-color); */
+
+    /* box-shadow: 10px 15px red, 15px 8px green; */
+    /* box-shadow: 10px 15px red, -15px -8px green; */
+    box-shadow: 10px 15px 5px red, -15px -8px 5px green;
+}
+
+#head {
+    /* text-shadow: 2px 3px red */
+    /* text-shadow: 5px 3px 5px rgb(119, 22, 22); */
+    /* text-shadow: yellow 3px 5px 2px; */
+    /* text-shadow: 3px 5px; */
+    text-shadow: 3px 5px 2px green, -3px -5px 3px blue;
+}
