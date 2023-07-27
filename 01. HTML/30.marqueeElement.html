@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquee Element in HTML</title>
+
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+
+        marquee {
+            height: 50px;
+            border: 2px solid black;
+        }
+        #one {
+            height: 200px;
+        }
+        img {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Marquee Element</h1>
+
+    <marquee id="one">
+        <h2>Welcome to India!</h2>
+        <img src="./img.jpg" alt="">
+    </marquee>
+    
+    <h1>Marquee Element with direction attribute</h1>
+    <marquee direction="left">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee direction="right">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee direction="up">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee direction="down">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    
+    <h1>Marquee Element with behaviour attribute</h1>
+    <marquee behavior="alternate">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee behavior="sliding">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee behavior="scrolling">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    
+    <h1>Marquee Element with scrollamount attribute</h1>
+    <marquee scrollamount="5">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee scrollamount="10">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    
+    <h1>Marquee Element with scrolldelay attribute</h1>
+    <marquee scrolldelay="5">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee scrolldelay="10">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    
+    <h1>Marquee Element with loop attribute</h1>
+    <marquee loop="2">
+        <h2>Welcome to India!</h2>
+    </marquee>
+    <marquee loop="5">
+        <h2>Welcome to India!</h2>
+    </marquee>
+
+
+    <h1>All in One</h1>
+    <marquee behavior="alternate" direction="right" loop="5">
+        <h2>Hello Everyone</h2>
+    </marquee>
+</body>
+</html>
