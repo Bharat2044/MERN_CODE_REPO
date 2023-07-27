@@ -1,0 +1,57 @@
+div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    margin: 30px;
+}
+
+.one {
+    box-shadow: 10px 10px;
+}
+
+.two {
+    box-shadow: 10px 10px lightblue;
+}
+
+.three {
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.four {
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+
+.five {
+    box-shadow: 10px 10px 5px lightblue inset;
+}
+
+.six {
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+.seven {
+    box-shadow: -10px -10px 5px rgb(96, 0, 128); 
+}
+
+
+#img1 {
+    width: 300px;
+    margin-left: 20px;
+
+    box-shadow: 5px 5px 10px green;
+}
+
+#img2 {
+    width: 300px;
+    margin-left: 20px;
+
+    box-shadow: 5px 5px 10px rgb(8, 59, 244);
+}
+
+#img3 {
+    width: 300px;
+    margin-left: 20px;
+
+    filter: drop-shadow(5px 5px 10px rgb(9, 225, 245));
+}
