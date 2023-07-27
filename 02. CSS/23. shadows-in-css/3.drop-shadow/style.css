@@ -1,0 +1,26 @@
+img {
+    margin: 30px;
+}
+#img1 {
+    width: 300px;
+
+    box-shadow: 5px 5px 10px green;
+}
+
+#img2 {
+    width: 300px;
+
+    box-shadow: 5px 5px 10px rgb(8, 59, 244);
+}
+
+#img3 {
+    width: 300px;
+
+    filter: drop-shadow(5px 5px 10px rgb(9, 225, 245));
+}
+
+#img4 {
+    width: 300px;
+
+    filter: drop-shadow(5px 5px 10px rgb(245, 9, 88));
+}
