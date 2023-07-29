@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge Component in Bootstrap</title>
+
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="heading">Badge</h1>
+
+    <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+    <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+    <h3>Example heading <span class="badge bg-secondary">New</span></h3>
+    <h4>Example heading <span class="badge bg-secondary">New</span></h4>
+    <h5>Example heading <span class="badge bg-secondary">New</span></h5>
+    <h6>Example heading <span class="badge bg-secondary">New</span></h6>
+
+    <h2 class="head">Button</h2>
+    <button type="button" class="btn btn-primary">
+        Notifications <span class="badge text-bg-secondary">4</span>
+    </button>
+
+    <h2>Positioned</h2>
+    <button type="button" class="btn btn-success position-relative">
+        Inbox
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">unread messages</span>
+        </span>
+    </button>
+
+    <button type="button" class="btn btn-primary position-relative">
+        Profile
+        <span
+            class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+        </span>
+    </button>
+
+    <h2 class="head">Background Colors</h2>
+    <span class="badge text-bg-primary">Primary</span>
+    <span class="badge text-bg-secondary">Secondary</span>
+    <span class="badge text-bg-success">Success</span>
+    <span class="badge text-bg-danger">Danger</span>
+    <span class="badge text-bg-warning">Warning</span>
+    <span class="badge text-bg-info">Info</span>
+    <span class="badge text-bg-light">Light</span>
+    <span class="badge text-bg-dark">Dark</span>
+
+    <h2 class="head">Pill Badges</h2>
+    <span class="badge rounded-pill text-bg-primary">Primary</span>
+    <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+    <span class="badge rounded-pill text-bg-success">Success</span>
+    <span class="badge rounded-pill text-bg-danger">Danger</span>
+    <span class="badge rounded-pill text-bg-warning">Warning</span>
+    <span class="badge rounded-pill text-bg-info">Info</span>
+    <span class="badge rounded-pill text-bg-light">Light</span>
+    <span class="badge rounded-pill text-bg-dark">Dark</span>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
