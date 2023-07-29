@@ -1,0 +1,17 @@
+body {
+    background-color: #212529;
+}
+
+.heading {
+    text-align: center;
+    background-color: #d19797;
+}
+
+.head {
+    margin-top: 20px;
+    color: rgb(14, 6, 249);
+}
+
+nav {
+    margin-top: 20px;
+}
