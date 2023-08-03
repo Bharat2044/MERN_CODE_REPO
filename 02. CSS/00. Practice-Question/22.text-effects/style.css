@@ -1,0 +1,75 @@
+body {
+    font-family: 'Trebuchet MS';
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: brown;
+}
+
+.ellipsisProperty {
+    width: 300px;
+    border: 2px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ellipsisProperty:hover {
+    overflow: visible;
+}
+
+
+.clipProperty {
+    width: 300px;
+    border: 2px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.clipProperty:hover {
+    overflow: visible;
+}
+
+
+.vert {
+    /* writing-mode: sideways-lr; */
+    /* writing-mode: sideways-rl; */
+    /* writing-mode: vertical-lr; */
+    writing-mode: vertical-rl;
+}
+
+
+div p {
+    width: 50px;
+    border: 2px solid brown;
+    overflow: hidden;
+}
+
+.wrap {
+    word-wrap: break-word;
+}
+
+
+.shadow {
+    color: black;
+    font-family: 'papyrus';
+    text-shadow: 0 0 30px green, 0 0 5px white;
+}
+
+.glow {
+    margin-top: 50px;
+    font-size: 45px;
+    color: rgb(237, 237, 151);
+    font-family: 'papyrus';
+    text-shadow: 0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 31px #fff,
+        0 0 55px rgb(255, 226, 4),
+        0 0 91px rgb(255, 226, 4),
+        0 0 100px rgb(255, 226, 4),
+        0 0 122px rgb(255, 226, 4),
+        0 0 140px rgb(255, 226, 4);
+}
