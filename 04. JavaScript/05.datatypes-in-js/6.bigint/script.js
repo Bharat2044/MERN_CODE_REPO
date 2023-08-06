@@ -4,5 +4,7 @@ let y = 0n;
 
 console.log(typeof x);
 console.log(x);
+console.log();
+
 console.log(typeof y);
 console.log(y);
