@@ -1,4 +1,5 @@
 let x;
+let y = undefined;
 
-console.log(typeof x);
-console.log(x);
+console.log(x, typeof x);
+console.log(y, typeof(y));
