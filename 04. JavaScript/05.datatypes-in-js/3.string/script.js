@@ -35,3 +35,15 @@ console.log();
 console.log("a" + "b");
 console.log("abc" + 1);
 console.log("abc" + " " + "def");
+console.log();
+
+let x = `Ramu Kaka`;
+console.log(x);
+console.log(typeof(x));
+console.log();
+
+let y = `Hi,
+How are 
+you?`;
+console.log(y);
+console.log(typeof(y));
